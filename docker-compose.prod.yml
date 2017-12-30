@@ -1,0 +1,4 @@
+version: "3"
+services:
+  ros:
+    command: bash -c "rm -rf build/ devel/ && catkin_make && source devel/setup.sh && roslaunch launch/site.launch"

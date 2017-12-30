@@ -2,6 +2,13 @@
 
 session="ros"
 
+if [[ ! $(pwd | grep ros) ]]; then
+    echo "Please execute this script inside ros directory"
+fi
+
+rm -rf devel/ build/
+catkin_make
+
 # IF `ros` session is already running kill it
 if [[ $(tmux list-session | grep -i $session) ]]; then
     echo "[info] Found $session. Killing it"

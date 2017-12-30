@@ -10,4 +10,4 @@ services:
       - "4567:4567"
       - "11311:11311"
 
-    command: bash -c "rm -rf build/ devel/ && catkin_make && source devel/setup.sh && roslaunch launch/styx.launch"
+    command: bash -c "rm -rf build/ devel/ && catkin_make && source devel/setup.sh"

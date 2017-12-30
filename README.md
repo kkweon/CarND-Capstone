@@ -13,6 +13,7 @@
 
 
 # Self Driving Car System Integration<a id="sec-1"></a>
+<img src="https://travis-ci.org/kkweon/CarND-Capstone.svg?branch=master" alt="build status" />
 
 This is the final capstone project in Udacity's Self-Driving Car Nanodegree. In this project, we write code that will automatically drive a "Carla." The Carla is an actual self-driving car equipped with necessary sensors and the drive-by-wire module.
 
